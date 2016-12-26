@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                     Support AliPaySDK
                    DESC
 
-  s.homepage     = "http://www.igeese.cn"
+  s.homepage     = "https://github.com/msh940620/AliPaySDK"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/msh940620/AliPaySDK.git", :tag => "#{s.version}" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
