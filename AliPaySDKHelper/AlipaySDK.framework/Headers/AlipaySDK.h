@@ -27,7 +27,7 @@ typedef enum {
 } AlipayTidFactor;
 
 typedef void(^CompletionBlock)(NSDictionary *resultDic);
-
+#import <UIKit/UIKit.h>
 @interface AlipaySDK : NSObject
 
 /**

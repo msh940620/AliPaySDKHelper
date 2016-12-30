@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B80612FC7895A114C981375 /* libPods-AliPaySDKHelper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE22C0A894715F47B888EE9E /* libPods-AliPaySDKHelper.a */; };
 		F526BAD41E15F56400ECEA21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F526BAD31E15F56400ECEA21 /* main.m */; };
 		F526BAD71E15F56400ECEA21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F526BAD61E15F56400ECEA21 /* AppDelegate.m */; };
 		F526BADA1E15F56400ECEA21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F526BAD91E15F56400ECEA21 /* ViewController.m */; };
@@ -15,6 +16,27 @@
 		F526BAE21E15F56400ECEA21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F526BAE01E15F56400ECEA21 /* LaunchScreen.storyboard */; };
 		F526BAED1E15F56400ECEA21 /* AliPaySDKHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F526BAEC1E15F56400ECEA21 /* AliPaySDKHelperTests.m */; };
 		F526BAF81E15F56400ECEA21 /* AliPaySDKHelperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F526BAF71E15F56400ECEA21 /* AliPaySDKHelperUITests.m */; };
+		F526BB3F1E1606BF00ECEA21 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = F526BB2A1E1606BF00ECEA21 /* Order.m */; };
+		F526BB401E1606BF00ECEA21 /* RequestAliPay.m in Sources */ = {isa = PBXBuildFile; fileRef = F526BB2C1E1606BF00ECEA21 /* RequestAliPay.m */; };
+		F526BB411E1606BF00ECEA21 /* base64.m in Sources */ = {isa = PBXBuildFile; fileRef = F526BB2F1E1606BF00ECEA21 /* base64.m */; };
+		F526BB421E1606BF00ECEA21 /* DataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = F526BB321E1606BF00ECEA21 /* DataSigner.m */; };
+		F526BB431E1606BF00ECEA21 /* DataVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = F526BB341E1606BF00ECEA21 /* DataVerifier.m */; };
+		F526BB441E1606BF00ECEA21 /* MD5DataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = F526BB361E1606BF00ECEA21 /* MD5DataSigner.m */; };
+		F526BB451E1606BF00ECEA21 /* NSDataEx.m in Sources */ = {isa = PBXBuildFile; fileRef = F526BB381E1606BF00ECEA21 /* NSDataEx.m */; };
+		F526BB461E1606BF00ECEA21 /* openssl_wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = F526BB3A1E1606BF00ECEA21 /* openssl_wrapper.m */; };
+		F526BB471E1606BF00ECEA21 /* RSADataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = F526BB3C1E1606BF00ECEA21 /* RSADataSigner.m */; };
+		F526BB481E1606BF00ECEA21 /* RSADataVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = F526BB3E1E1606BF00ECEA21 /* RSADataVerifier.m */; };
+		F526BB4A1E1606FD00ECEA21 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F526BB491E1606FD00ECEA21 /* SystemConfiguration.framework */; };
+		F526BB4C1E16070300ECEA21 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F526BB4B1E16070300ECEA21 /* CoreTelephony.framework */; };
+		F526BB4E1E16070900ECEA21 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F526BB4D1E16070900ECEA21 /* QuartzCore.framework */; };
+		F526BB501E16071000ECEA21 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F526BB4F1E16071000ECEA21 /* CoreText.framework */; };
+		F526BB521E16071700ECEA21 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F526BB511E16071700ECEA21 /* CoreGraphics.framework */; };
+		F526BB541E16072200ECEA21 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F526BB531E16072200ECEA21 /* CFNetwork.framework */; };
+		F526BB561E16073100ECEA21 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F526BB551E16073100ECEA21 /* CoreMotion.framework */; };
+		F526BB581E16076C00ECEA21 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F526BB571E16076C00ECEA21 /* AlipaySDK.framework */; };
+		F526BB5A1E16078000ECEA21 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F526BB591E16078000ECEA21 /* AlipaySDK.bundle */; };
+		F526BB5C1E16079900ECEA21 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F526BB5B1E16079900ECEA21 /* libz.tbd */; };
+		F526BB5E1E1607A000ECEA21 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F526BB5D1E1607A000ECEA21 /* libc++.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +57,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B184178FAF8D29AE79D57E1 /* Pods-AliPaySDKHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliPaySDKHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-AliPaySDKHelper/Pods-AliPaySDKHelper.release.xcconfig"; sourceTree = "<group>"; };
+		1D1A218F3730B2D8FA26C036 /* Pods-AliPaySDKHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliPaySDKHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AliPaySDKHelper/Pods-AliPaySDKHelper.debug.xcconfig"; sourceTree = "<group>"; };
 		F526BACF1E15F56400ECEA21 /* AliPaySDKHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AliPaySDKHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F526BAD31E15F56400ECEA21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F526BAD51E15F56400ECEA21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +75,40 @@
 		F526BAF31E15F56400ECEA21 /* AliPaySDKHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliPaySDKHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F526BAF71E15F56400ECEA21 /* AliPaySDKHelperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AliPaySDKHelperUITests.m; sourceTree = "<group>"; };
 		F526BAF91E15F56400ECEA21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F526BB281E1606BF00ECEA21 /* AliPaySetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliPaySetting.h; sourceTree = "<group>"; };
+		F526BB291E1606BF00ECEA21 /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		F526BB2A1E1606BF00ECEA21 /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
+		F526BB2B1E1606BF00ECEA21 /* RequestAliPay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestAliPay.h; sourceTree = "<group>"; };
+		F526BB2C1E1606BF00ECEA21 /* RequestAliPay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestAliPay.m; sourceTree = "<group>"; };
+		F526BB2E1E1606BF00ECEA21 /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		F526BB2F1E1606BF00ECEA21 /* base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = base64.m; sourceTree = "<group>"; };
+		F526BB301E1606BF00ECEA21 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		F526BB311E1606BF00ECEA21 /* DataSigner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSigner.h; sourceTree = "<group>"; };
+		F526BB321E1606BF00ECEA21 /* DataSigner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSigner.m; sourceTree = "<group>"; };
+		F526BB331E1606BF00ECEA21 /* DataVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataVerifier.h; sourceTree = "<group>"; };
+		F526BB341E1606BF00ECEA21 /* DataVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataVerifier.m; sourceTree = "<group>"; };
+		F526BB351E1606BF00ECEA21 /* MD5DataSigner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5DataSigner.h; sourceTree = "<group>"; };
+		F526BB361E1606BF00ECEA21 /* MD5DataSigner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5DataSigner.m; sourceTree = "<group>"; };
+		F526BB371E1606BF00ECEA21 /* NSDataEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataEx.h; sourceTree = "<group>"; };
+		F526BB381E1606BF00ECEA21 /* NSDataEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataEx.m; sourceTree = "<group>"; };
+		F526BB391E1606BF00ECEA21 /* openssl_wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openssl_wrapper.h; sourceTree = "<group>"; };
+		F526BB3A1E1606BF00ECEA21 /* openssl_wrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openssl_wrapper.m; sourceTree = "<group>"; };
+		F526BB3B1E1606BF00ECEA21 /* RSADataSigner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSADataSigner.h; sourceTree = "<group>"; };
+		F526BB3C1E1606BF00ECEA21 /* RSADataSigner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSADataSigner.m; sourceTree = "<group>"; };
+		F526BB3D1E1606BF00ECEA21 /* RSADataVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSADataVerifier.h; sourceTree = "<group>"; };
+		F526BB3E1E1606BF00ECEA21 /* RSADataVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSADataVerifier.m; sourceTree = "<group>"; };
+		F526BB491E1606FD00ECEA21 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F526BB4B1E16070300ECEA21 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F526BB4D1E16070900ECEA21 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F526BB4F1E16071000ECEA21 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		F526BB511E16071700ECEA21 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F526BB531E16072200ECEA21 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F526BB551E16073100ECEA21 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		F526BB571E16076C00ECEA21 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = AliPaySDKHelper/AlipaySDK.framework; sourceTree = "<group>"; };
+		F526BB591E16078000ECEA21 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		F526BB5B1E16079900ECEA21 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F526BB5D1E1607A000ECEA21 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		FE22C0A894715F47B888EE9E /* libPods-AliPaySDKHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AliPaySDKHelper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +116,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F526BB5E1E1607A000ECEA21 /* libc++.tbd in Frameworks */,
+				F526BB5C1E16079900ECEA21 /* libz.tbd in Frameworks */,
+				F526BB581E16076C00ECEA21 /* AlipaySDK.framework in Frameworks */,
+				F526BB561E16073100ECEA21 /* CoreMotion.framework in Frameworks */,
+				F526BB541E16072200ECEA21 /* CFNetwork.framework in Frameworks */,
+				F526BB521E16071700ECEA21 /* CoreGraphics.framework in Frameworks */,
+				F526BB501E16071000ECEA21 /* CoreText.framework in Frameworks */,
+				F526BB4E1E16070900ECEA21 /* QuartzCore.framework in Frameworks */,
+				F526BB4C1E16070300ECEA21 /* CoreTelephony.framework in Frameworks */,
+				F526BB4A1E1606FD00ECEA21 /* SystemConfiguration.framework in Frameworks */,
+				8B80612FC7895A114C981375 /* libPods-AliPaySDKHelper.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +147,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CDE0F86CDA2C67FA0B9BF2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F526BB5D1E1607A000ECEA21 /* libc++.tbd */,
+				F526BB5B1E16079900ECEA21 /* libz.tbd */,
+				F526BB571E16076C00ECEA21 /* AlipaySDK.framework */,
+				F526BB551E16073100ECEA21 /* CoreMotion.framework */,
+				F526BB531E16072200ECEA21 /* CFNetwork.framework */,
+				F526BB511E16071700ECEA21 /* CoreGraphics.framework */,
+				F526BB4F1E16071000ECEA21 /* CoreText.framework */,
+				F526BB4D1E16070900ECEA21 /* QuartzCore.framework */,
+				F526BB4B1E16070300ECEA21 /* CoreTelephony.framework */,
+				F526BB491E1606FD00ECEA21 /* SystemConfiguration.framework */,
+				FE22C0A894715F47B888EE9E /* libPods-AliPaySDKHelper.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E58EC4E0F5E24E53837DF4B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D1A218F3730B2D8FA26C036 /* Pods-AliPaySDKHelper.debug.xcconfig */,
+				1B184178FAF8D29AE79D57E1 /* Pods-AliPaySDKHelper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F526BAC61E15F56400ECEA21 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +181,8 @@
 				F526BAEB1E15F56400ECEA21 /* AliPaySDKHelperTests */,
 				F526BAF61E15F56400ECEA21 /* AliPaySDKHelperUITests */,
 				F526BAD01E15F56400ECEA21 /* Products */,
+				E58EC4E0F5E24E53837DF4B3 /* Pods */,
+				2CDE0F86CDA2C67FA0B9BF2C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +199,8 @@
 		F526BAD11E15F56400ECEA21 /* AliPaySDKHelper */ = {
 			isa = PBXGroup;
 			children = (
+				F526BB591E16078000ECEA21 /* AlipaySDK.bundle */,
+				F526BB271E1606BF00ECEA21 /* Source */,
 				F526BAD51E15F56400ECEA21 /* AppDelegate.h */,
 				F526BAD61E15F56400ECEA21 /* AppDelegate.m */,
 				F526BAD81E15F56400ECEA21 /* ViewController.h */,
@@ -140,6 +240,43 @@
 			path = AliPaySDKHelperUITests;
 			sourceTree = "<group>";
 		};
+		F526BB271E1606BF00ECEA21 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F526BB281E1606BF00ECEA21 /* AliPaySetting.h */,
+				F526BB291E1606BF00ECEA21 /* Order.h */,
+				F526BB2A1E1606BF00ECEA21 /* Order.m */,
+				F526BB2B1E1606BF00ECEA21 /* RequestAliPay.h */,
+				F526BB2C1E1606BF00ECEA21 /* RequestAliPay.m */,
+				F526BB2D1E1606BF00ECEA21 /* Util */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F526BB2D1E1606BF00ECEA21 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F526BB2E1E1606BF00ECEA21 /* base64.h */,
+				F526BB2F1E1606BF00ECEA21 /* base64.m */,
+				F526BB301E1606BF00ECEA21 /* config.h */,
+				F526BB311E1606BF00ECEA21 /* DataSigner.h */,
+				F526BB321E1606BF00ECEA21 /* DataSigner.m */,
+				F526BB331E1606BF00ECEA21 /* DataVerifier.h */,
+				F526BB341E1606BF00ECEA21 /* DataVerifier.m */,
+				F526BB351E1606BF00ECEA21 /* MD5DataSigner.h */,
+				F526BB361E1606BF00ECEA21 /* MD5DataSigner.m */,
+				F526BB371E1606BF00ECEA21 /* NSDataEx.h */,
+				F526BB381E1606BF00ECEA21 /* NSDataEx.m */,
+				F526BB391E1606BF00ECEA21 /* openssl_wrapper.h */,
+				F526BB3A1E1606BF00ECEA21 /* openssl_wrapper.m */,
+				F526BB3B1E1606BF00ECEA21 /* RSADataSigner.h */,
+				F526BB3C1E1606BF00ECEA21 /* RSADataSigner.m */,
+				F526BB3D1E1606BF00ECEA21 /* RSADataVerifier.h */,
+				F526BB3E1E1606BF00ECEA21 /* RSADataVerifier.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +284,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F526BAFC1E15F56400ECEA21 /* Build configuration list for PBXNativeTarget "AliPaySDKHelper" */;
 			buildPhases = (
+				DB736DC4E8A2034B6F028676 /* [CP] Check Pods Manifest.lock */,
 				F526BACB1E15F56400ECEA21 /* Sources */,
 				F526BACC1E15F56400ECEA21 /* Frameworks */,
 				F526BACD1E15F56400ECEA21 /* Resources */,
+				FFE08050FE8446FCD2F8AF8D /* [CP] Embed Pods Frameworks */,
+				281973F281B586E48A7FB0F8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +388,7 @@
 			files = (
 				F526BAE21E15F56400ECEA21 /* LaunchScreen.storyboard in Resources */,
 				F526BADF1E15F56400ECEA21 /* Assets.xcassets in Resources */,
+				F526BB5A1E16078000ECEA21 /* AlipaySDK.bundle in Resources */,
 				F526BADD1E15F56400ECEA21 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,14 +409,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		281973F281B586E48A7FB0F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AliPaySDKHelper/Pods-AliPaySDKHelper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB736DC4E8A2034B6F028676 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FFE08050FE8446FCD2F8AF8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AliPaySDKHelper/Pods-AliPaySDKHelper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F526BACB1E15F56400ECEA21 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F526BB481E1606BF00ECEA21 /* RSADataVerifier.m in Sources */,
+				F526BB461E1606BF00ECEA21 /* openssl_wrapper.m in Sources */,
+				F526BB411E1606BF00ECEA21 /* base64.m in Sources */,
+				F526BB451E1606BF00ECEA21 /* NSDataEx.m in Sources */,
+				F526BB441E1606BF00ECEA21 /* MD5DataSigner.m in Sources */,
 				F526BADA1E15F56400ECEA21 /* ViewController.m in Sources */,
+				F526BB401E1606BF00ECEA21 /* RequestAliPay.m in Sources */,
+				F526BB471E1606BF00ECEA21 /* RSADataSigner.m in Sources */,
 				F526BAD71E15F56400ECEA21 /* AppDelegate.m in Sources */,
+				F526BB3F1E1606BF00ECEA21 /* Order.m in Sources */,
 				F526BAD41E15F56400ECEA21 /* main.m in Sources */,
+				F526BB421E1606BF00ECEA21 /* DataSigner.m in Sources */,
+				F526BB431E1606BF00ECEA21 /* DataVerifier.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,8 +621,13 @@
 		};
 		F526BAFD1E15F56400ECEA21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D1A218F3730B2D8FA26C036 /* Pods-AliPaySDKHelper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AliPaySDKHelper",
+				);
 				INFOPLIST_FILE = AliPaySDKHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.reminisce.AliPaySDKHelper;
@@ -433,8 +637,13 @@
 		};
 		F526BAFE1E15F56400ECEA21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B184178FAF8D29AE79D57E1 /* Pods-AliPaySDKHelper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AliPaySDKHelper",
+				);
 				INFOPLIST_FILE = AliPaySDKHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.reminisce.AliPaySDKHelper;
@@ -507,6 +716,7 @@
 				F526BAFE1E15F56400ECEA21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F526BAFF1E15F56400ECEA21 /* Build configuration list for PBXNativeTarget "AliPaySDKHelperTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +725,7 @@
 				F526BB011E15F56400ECEA21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F526BB021E15F56400ECEA21 /* Build configuration list for PBXNativeTarget "AliPaySDKHelperUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +734,7 @@
 				F526BB041E15F56400ECEA21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

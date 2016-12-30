@@ -124,7 +124,7 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'AlipaySDK.framework'
   # s.ios.vendored_libraries = 'Source/*.a'
 
-  s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/../LocalLib/AliPaySDK"' }
+  # s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/../AliPaySDKHelper/AliPaySDK"' }
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  If your library depends on compiler flags you can set them in the xcconfig hash
