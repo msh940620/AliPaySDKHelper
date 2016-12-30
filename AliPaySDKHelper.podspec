@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "AliPaySDK"
+  s.name         = "AliPaySDKHelper"
   s.version      = "0.0.1"
-  s.summary      = "Support AliPaySDK."
+  s.summary      = "Support AliPaySDKHelper."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,10 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                    Support AliPaySDK
+                    Support AliPaySDKHelper
                    DESC
 
-  s.homepage     = "https://github.com/msh940620/AliPaySDK"
+  s.homepage     = "https://github.com/msh940620/AliPaySDKHelper"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/msh940620/AliPaySDK.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/msh940620/AliPaySDKHelper.git", :tag => "#{s.version}" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -90,8 +90,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Source", "Source/**/*.{h,m}"
-  s.exclude_files = "Source/Exclude"
+  s.source_files  = "AliPaySDKHelper/Source", "AliPaySDKHelper/Source/**/*.{h,m}"
+  s.exclude_files = "AliPaySDKHelper/Source/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
