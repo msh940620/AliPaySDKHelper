@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/msh940620/AliPaySDKHelper.git",  :commit => "c10a85bc58cc5d7ca903cdfee77669e046e2f57b" }
+  s.source       = { :git => "https://github.com/msh940620/AliPaySDKHelper.git", :tag => "#{s.version}" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
