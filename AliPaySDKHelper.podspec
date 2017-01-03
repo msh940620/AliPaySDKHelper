@@ -104,7 +104,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  s.resource  = "AlipaySDK.bundle"
+  s.resource  = "AliPaySDKHelper/AlipaySDK.bundle"
   # s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
@@ -121,10 +121,11 @@ Pod::Spec.new do |s|
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
   s.ios.libraries = 'z', 'c++'
-  s.ios.vendored_frameworks = 'AlipaySDK.framework'
+  s.ios.vendored_frameworks = 'AliPaySDKHelper/AlipaySDK.framework'
   # s.ios.vendored_libraries = 'Source/*.a'
 
-  # s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/../AliPaySDKHelper/AliPaySDK"' }
+  # s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(SRCROOT)/AliPaySDKHelper/"' }
+  # s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => '"${SRCROOT}/AliPaySDKHelper/AliPaySDK"' }
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  If your library depends on compiler flags you can set them in the xcconfig hash
@@ -133,7 +134,7 @@ Pod::Spec.new do |s|
 
   # s.requires_arc = true
 
-  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/LocalLib/AliPaySDK/Source" }
+  # s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(SRCROOT)/AliPaySDKHelper/"' }
   # s.dependency "JSONKit", "~> 1.4"
   s.dependency "OpenSSL"
 end
