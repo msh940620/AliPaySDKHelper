@@ -90,8 +90,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "AliPaySDKHelper/Source", "AliPaySDKHelper/Source/**/*.{h,m}"
-  s.exclude_files = "AliPaySDKHelper/Source/Exclude"
+  s.source_files  = "AliPaySDKHelper/Source/**/*.{h,m}"
+  # s.exclude_files = "AliPaySDKHelper/Source/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
